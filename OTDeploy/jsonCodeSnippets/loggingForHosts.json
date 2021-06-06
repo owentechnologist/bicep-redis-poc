@@ -1,6 +1,6 @@
-//host.json file in azure functionApp (webapp)
-//replace the block with sampling enabled:
-//note this can go after another block ending in },
+host.json file in azure functionApp (webapp)
+replace the block that has sampling enabled with this one:
+note this can go after another block ending in },
 
 {
     "logging": {
@@ -8,9 +8,4 @@
         "default": "Trace"
     },
     "fileLoggingMode": "always"
-},
-    "extensionBundle": {
-      "id": "Microsoft.Azure.Functions.ExtensionBundle",
-      "version": "[1.*, 2.0.0)"
-    }
-  }
+}
