@@ -1,0 +1,36 @@
+#SUBSCRIPTION_ID="ef03f41d-d2bd-4691-b3a0-3aff1c6711f7"
+#RESOURCE_GROUP_NAME=redisgeeknjhc
+SUBSCRIPTION_ID="ef03f41d-d2bd-4691-b3a0-3aff1c6711f7"
+RESOURCE_GROUP_NAME=OT_WEST
+
+# Source, or primary, location
+## Storage
+#SRC_ACCOUNT=redisgeekcyeo
+SRC_ACCOUNT=drtestcentralus01
+#SRC_ACCOUNT_ACCESS_KEY="Tjcvra0KAxMnTUryPwy4jbqlALkBcic2QklAcq1dT/pxI16tpQKaj4E2ZRHXwH9hEQ5KBuO/wOIBlx3nkvVo1Q=="
+SRC_ACCOUNT_ACCESS_KEY="ygoZeUCSdSmsSAi0LFkbVnvKDT5aiRf9ClV2a0wbiLakjTn1alLeMpxG4avakGbjgIOOGIzAgjXyLbkH+ilR5w=="
+#SRC_CONTAINER=redisgeek-xgvw
+SRC_CONTAINER=redisstorage
+
+
+## Redis Enterprise Cache
+#SRC_CLUSTER_NAME=redisgeek-xgvw
+SRC_CLUSTER_NAME=drtest-redispoc-centralus
+#SRC_DATABASE_NAME=default
+SRC_DATABASE_NAME=default
+
+# Destination, or secondary, location
+## Storage
+#DEST_ACCOUNT=redisgeekcqvx
+DEST_ACCOUNT=drtesteastus01
+#DEST_ACCOUNT_ACCESS_KEY='+47j3CTO35eqTz3Uq0Hi/eXHb87Xy3XN42TAgDXgpSWqs/5NDUMlKGetjgSMOctXyNjUvEoNeaOnkf1cL3J9Qg=='
+DEST_ACCOUNT_ACCESS_KEY='MHXFnaWb87YvbzJETaH5a4CAKXQm2XpzdZl0/ThkiBdEUPxsTDVzGEDJqWTaq4UYTnvxMIYB4AF1Babgp5ZRgg=='
+#DEST_CONTAINER=oiam
+DEST_CONTAINER=redisstorage
+
+
+## Redis Enterprise Cache
+#DEST_CLUSTER_NAME=redisgeek-ofhx
+DEST_CLUSTER_NAME=drtest-redispoc-eastus
+#DEST_DATABASE_NAME=default
+DEST_DATABASE_NAME=default
